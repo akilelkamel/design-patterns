@@ -16,4 +16,4 @@ Ressources du cours de patrons de conception : supports de cours, diapositives, 
 
 ## Exemples du cours
 
-- Forme géométriques
+- [Forme géométriques](exemples/formes-geometriques/Main.java)
