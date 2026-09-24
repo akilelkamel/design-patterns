@@ -13,3 +13,7 @@ Ressources du cours de patrons de conception : supports de cours, diapositives, 
 ## Travaux pratiques
 
 
+
+## Exemples du cours
+
+- Forme géométriques
