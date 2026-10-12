@@ -20,7 +20,7 @@ Ressources du cours de patrons de conception : supports de cours, diapositives, 
 
 ## Travaux pratiques
 
-- [TP 1: Singleton](TPs/TP1.pdf)
+- [TP 1: Singleton](TPs/TP01.pdf)
 
 ## Exemples du cours
 
