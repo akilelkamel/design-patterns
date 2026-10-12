@@ -13,14 +13,16 @@ Ressources du cours de patrons de conception : supports de cours, diapositives, 
     - Partie 2: 
     - Partie 3: 
         
-- [Chapitre 4: Les patrons de conception structurels](slides/chapter4.pdf)
-- [Chapitre 5: Les patrons de conception comportementaux](slides/chapter5.pdf)
+- Chapitre 4: Les patrons de conception structurels
+- Chapitre 5: Les patrons de conception comportementaux
 
 
 
 ## Travaux pratiques
 
 - [TP 1: Singleton](TPs/TP01.pdf)
+- TP 2: Factory Method
+- TP 3: Abstract Factory
 
 ## Exemples du cours
 
