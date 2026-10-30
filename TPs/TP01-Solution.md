@@ -1,8 +1,8 @@
-# Série de TP n° 1 --- Singleton
+# Série de TP n° 1
 
-## Exercice --- La chaudière à chocolat
+## Singleton (La chaudière à chocolat)
 
-### Question 1 --- Choc-O-Holic a plutôt bien réussi à éviter les problèmes. Qu'en pensez-vous ?
+### Question 1: Choc-O-Holic a plutôt bien réussi à éviter les problèmes. Qu'en pensez-vous ?
 
 La classe `ChocolateBoiler` utilise deux attributs booléens :
 
@@ -28,7 +28,7 @@ est public. Il est donc possible de créer plusieurs objets
 doit contrôler une seule chaudière industrielle, plusieurs instances
 risquent de représenter de manière incohérente cette même ressource.
 
-### Question 2 --- Que pourrait-il se passer si plusieurs instances de `ChocolateBoiler` étaient créées ?
+### Question 2: Que pourrait-il se passer si plusieurs instances de `ChocolateBoiler` étaient créées ?
 
 Chaque instance possède ses propres attributs `empty` et `boiled`. Par
 conséquent, deux instances peuvent avoir des états différents alors
@@ -55,7 +55,7 @@ contradictoires ou dangereuses.
 Il faut donc garantir que toute l'application utilise **une seule
 instance** de `ChocolateBoiler`.
 
-### Question 3 --- Transformer `ChocolateBoiler` en Singleton
+### Question 3: Transformer `ChocolateBoiler` en Singleton
 
 Le patron Singleton garantit qu'une classe ne possède qu'une seule
 instance accessible par un point d'accès commun.
@@ -130,7 +130,7 @@ public class ChocolateBoiler {
     sans créer préalablement un objet.
 -   L'instance est créée lors du premier appel de la méthode `getInstance()`.
 
-### Question 4 --- Programme principal pour tester la nouvelle classe
+### Question 4: Programme principal pour tester la nouvelle classe
 
 ``` java
 public class Main {
